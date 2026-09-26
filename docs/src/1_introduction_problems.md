@@ -27,26 +27,26 @@ $$R_\odot\sim 7\times 10^{10}\;\mathrm{[cm]},\quad M_\odot \sim 2\times 10^{33}\
     powered by contraction. You can use $G\sim 6\times 10^{-8} \,\mathrm{cm^3\,g^{-1}\,s^{-2}}$
 
 - Dynamical timescale: For most of their lives stars are very close to
-hydrostatic equilibrium, carefully balancing their gravities against the support
-of a pressure gradient. Whenever these two forces are misbalanced, the star will
-evolve in what is known as the dynamical timescale. Estimate this timescale by
-computing the time it would take for the surface of the sun to free-fall all the
-way to its center if all forces opposing gravity would be removed. For
-simplicity assume that the gravitational acceleration is constant and equal to
-its present one.
+    hydrostatic equilibrium, carefully balancing their gravities against the support
+    of a pressure gradient. Whenever these two forces are misbalanced, the star will
+    evolve in what is known as the dynamical timescale. Estimate this timescale by
+    computing the time it would take for the surface of the sun to free-fall all the
+    way to its center if all forces opposing gravity would be removed. For
+    simplicity assume that the gravitational acceleration is constant and equal to
+    its present one.
 
 - Nuclear timescale: As we now know, most stars are powered by nuclear
-reactions. Masses of isotopes are normally given in terms of the atomic mass
-unit $m_\mathrm{u}=1.661\times 10^{-24}\;\mathrm{g}$, defined as $1/12$ of the
-mass of a carbon-12 atom. The mass of a hydrogen atom is
-$m_\mathrm{H}=1.007825m_\mathrm{u}$ and that of a helium atom is
-$m_\mathrm{He}=4.002602 m_\mathrm{u}$, such that if four hydrogen atoms are
-fused into a helium atom there is a mass deficit leading to a release of energy
-$(4m_\mathrm{H}-m_\mathrm{He})c^2\sim 4\times 10^{-5}\;\mathrm{[erg]}$. With
-this information, estimate the lifetime of the Sun as a core-hydrogen burning
-star. For simplicity, assume the Sun has a constant luminosity and is entirely
-composed of hydrogen, 10% of which is burned into Helium during core-hydrogen
-burning.
+    reactions. Masses of isotopes are normally given in terms of the atomic mass
+    unit $m_\mathrm{u}=1.661\times 10^{-24}\;\mathrm{g}$, defined as $1/12$ of the
+    mass of a carbon-12 atom. The mass of a hydrogen atom is
+    $m_\mathrm{H}=1.007825m_\mathrm{u}$ and that of a helium atom is
+    $m_\mathrm{He}=4.002602 m_\mathrm{u}$, such that if four hydrogen atoms are
+    fused into a helium atom there is a mass deficit leading to a release of energy
+    $(4m_\mathrm{H}-m_\mathrm{He})c^2\sim 4\times 10^{-5}\;\mathrm{[erg]}$. With
+    this information, estimate the lifetime of the Sun as a core-hydrogen burning
+    star. For simplicity, assume the Sun has a constant luminosity and is entirely
+    composed of hydrogen, 10% of which is burned into Helium during core-hydrogen
+    burning.
 
 ### 2: Constant density star 
 Consider a star with constant density,
