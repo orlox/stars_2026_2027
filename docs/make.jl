@@ -8,8 +8,8 @@ end
 
 #Literate.markdown("./docs/src/1_introduction_computational.jl", "./docs/src/", preprocess=ignore_code_blocks)
 #Literate.markdown("./docs/src/2_equations_computational.jl", "./docs/src/", preprocess=ignore_code_blocks)
-#include("./src/assets/4_eos2/MB_versus_degenerate.jl")
-#include("./src/assets/4_eos2/polytrope_plot.jl")
+include("./src/assets/3_eosII/MB_versus_degenerate.jl")
+include("./src/assets/3_eosII/polytrope_plot.jl")
 #include("./src/assets/7_nucleo1/gamow.jl")
 
 makedocs(sitename="Stellar Structure and Evolution",
@@ -19,6 +19,8 @@ makedocs(sitename="Stellar Structure and Evolution",
                 "EOS (reading material)" => "2_eos_reading.md",
                 "EOS part I (30/09/26)" => ["Notes" => "2_eosI.md",
                                             "Exercises"=>"2_eosI_problems.md"],
+                "EOS part II (07/10/26)" => ["Notes" => "3_eosII.md",
+                                            "Exercises"=>"3_eosII_problems.md"],
                 ],
     repo = "github.com/orlox/stars_2026_2027.git")
 

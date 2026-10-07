@@ -97,7 +97,7 @@ Our objective is to find $A$ and $B$. For this we will need two seemingly (at fi
 
    We leave it as part of the exercises to show that
 
-   $$\left(\frac{\partial P}{\partial T}\right)_v=-\frac{\left(\frac{\partial P}{\partial T}\right)_P}{\left(\frac{\partial v}{\partial P}\right)_T}=\frac{P\delta}{T\alpha}, \tag{2.6}$$
+   $$\left(\frac{\partial P}{\partial T}\right)_v=-\frac{\left(\frac{\partial v}{\partial T}\right)_P}{\left(\frac{\partial v}{\partial P}\right)_T}=\frac{P\delta}{T\alpha}, \tag{2.6}$$
 
    and that
 
