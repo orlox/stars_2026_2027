@@ -183,3 +183,31 @@ But in the extremely relativistic ,case $P_\mathrm{c}\propto \rho_c^{4/3}$, mean
 $$M_\mathrm{Ch}=\frac{5.836}{\mu_e^2}M_\odot,$$
 
 which is equal to $1.46M_\odot$ for $\mu_e=2$, characteristing of white dwarf composition. This is a fundamental limit for the mass of a star supported by electron pressure degeneracy.
+
+## Conditions for the onset of degeneracy
+
+Finally, we can return to our discussion in the previous class concerning the evolution of a star in the $\rho_\text{c}-T_\text{c}$ diagram. We can estimate the regions where degeneracy becomes relevant by considering the energy $E_\text{F}$ of a degenerate particle with momentum $p_\text{F}$ (known as the Fermi energy) and see under which conditions it would be similar to the typical energy of a particle in an ideal gas, $k_\text{B}T$. For each regime studied we find:
+- Non-relativistic:
+
+  $$E_\text{f}=\frac{p_\text{F}^2}{2m_e}\propto\rho^{2/3}$$
+
+  This implies that the locus where $k_\text{B}T=E_\text{F}$ is given by
+
+  $$\log T = C + \frac{2}{3}\log\rho.$$
+- Extremely relaticistic:
+  In the limit that particles with the Fermi momentum approach the speed of light we will have
+  
+  $$E_\text{F}=p_\text{F}c\propto \rho^{1/3},$$
+  
+  which means there is a locus separating an ideal gas from an extremely relativistic degenerate one that follows:
+  
+  $$\log T = D + \frac{1}{3}\log\rho.$$
+Of course there is a soft transition between non-relativistic degeneracy and extremely relativistic degeneracy, just as there is a soft transition between an ideal gas and a degenerate one. These relationships help us understand where these transitions are located. With this we can now understand the regions of non-relativistic and extremely-relativistic degeneracy introduced in the diagram of the previous class.
+
+![Degeneracy at solar core](assets/2_eosI/log_T_rho.svg)
+
+Critical to stellar evolution is that a contracting star will follow a trajectory where approximately (see Equation 2.10 from previous class)
+
+$$\log T_\text{c} = B + \frac{1}{3}\log \rho_\text{c} + \frac{2}{3}\log M +\log\mu.$$
+
+which is shallower than the boundary between an ideal gas an non-relativistic degeneracy. If a star hits this boundary, then its core will become degenerate, and contraction will halt as the pressure becomes decoupled from temperature. Higher mass stars however can avoid this limit, as in the limit of extremely relativistic degeneracy the boundary between the two regions becomes flatter and follows the slope expected from stellar contraction. This sets the difference between massive stars, which evolve until they deplete all available nuclear fuel and undergo core-collapse, to lower mass stars that end their lives as compact cores supported by degenerate electron pressure, known as white dwarfs.
