@@ -21,6 +21,8 @@ makedocs(sitename="Stellar Structure and Evolution",
                                             "Exercises"=>"2_eosI_problems.md"],
                 "EOS part II (07/10/26)" => ["Notes" => "3_eosII.md",
                                             "Exercises"=>"3_eosII_problems.md"],
+                "Radiative transfer (14/10/26)" => ["Notes" => "4_radiative.md",
+                                            "Exercises"=>"4_radiative_problems.md"],
                 ],
     repo = "github.com/orlox/stars_2026_2027.git")
 
