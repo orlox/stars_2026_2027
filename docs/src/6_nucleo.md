@@ -208,7 +208,7 @@ After a star depletes its central hydrogen, depending on conditions we'll discus
 
   Simultaneously, the released $\alpha$ particles can fuse with surrounding nuclei, leading to the production of heavier elements:
 
-  $$^{28}\mathrm{Si}(\alpha,\gamma)^{32}\mathrm{S}(\alpha,\gamma)^{36}\mathrm{Ar}(\alpha,\gamma)^{40}\mathrm{Ca}(\alpha,\gamma)^{44}\mathrm{Ti}(\alpha,\gamma)^{32}\mathrm{S}\dots^{56}\mathrm{Ni}.$$
+  $$^{28}\mathrm{Si}(\alpha,\gamma)^{32}\mathrm{S}(\alpha,\gamma)^{36}\mathrm{Ar}(\alpha,\gamma)^{40}\mathrm{Ca}(\alpha,\gamma)^{44}\mathrm{Ti}(\alpha,\gamma)\dots^{56}\mathrm{Ni}.$$
 
   The resulting nickel atom can then decay into $^{56}\mathrm{Fe}$, at which point we have reached the nucleus with the highest binding energy. This is a critical stage of evolution, as no exothermic reactions are possible beyond that stage. The end result is that the iron core will grow until a point where it experiences a dynamical core-collapse phase, potentially producing a compact object (neutron star or black hole) with an associated supernova event.
 

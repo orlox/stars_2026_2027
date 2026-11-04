@@ -17,7 +17,7 @@ $$\tau_{\mathrm{nuc}}=\frac{\alpha M\epsilon}{L}.$$
 
   Remember that the atomic mass unit $m_u$ (defined as $1/12$ times the mass of the $^{12}\mathrm{C}$ atom) is equal to $1.660540\times 10^{-24}\,\mathrm{g}$. Also, the speed of light is equal to $c\simeq 3\times 10^{10}$. With this information compute the value of $\epsilon$ while ignoring energy losses due to neutrinos. Remember that atomic masses refer to neutral atoms, so they include electron masses.
 
-- In the next class we will show that stars follow a steep mass luminosity relationship: 
+- In two classes we will show that stars follow a steep mass luminosity relationship: 
 
   $$L\propto M^{3}\:,$$ 
 
@@ -94,4 +94,22 @@ The exact energy released by fusing hydrogen is then dependant on the ratio that
 
 ### 3: Distribution of relative velocities
 
-TBD
+The objective of the problem is just to demonstrate that the distribution of relative velocities is a Maxwellian, but for completeness we can derive the full distribution. As a reminder, the Maxwellian distribution for velocities for a component of an ideal gas with mass $m_i$ is,
+
+$$f(v)=\left(\frac{m_i}{2\pi k_\text{B}T}\right)4\pi v^2\exp\left(-\frac{m_i v^2}{2 k_\text{B}T}\right),$$
+
+and is a consequence of each of the cartesian components of velocity following a normal distribution centered at zero and with a standard deviation of $\sigma=\sqrt{2k_\text{B}T/m_i}$, e.g. for the x-component
+
+$$f(v_x) = \sqrt{\frac{m_i}{2\pi k_\text{B}T}}\exp\left(-\frac{m_iv_x^2}{2k_\text{B}T}\right).$$
+
+We will consider two types of ions in the fluid, with masses $m_i$ and $m_j$. Then the individual velocity components $v_{x,i}$ and $v_{x,j}$ will follow normal distributions with standard deviations $\sigma_i=\sqrt{2k_\text{B}T/m_i}$ and $\sigma_j=\sqrt{2k_\text{B}T/m_j}$. If we take two ions of each type at random, we wish to know the distribution of the relative velocity in each component,
+
+$$v_\text{x,rel}= v_{x,i} - v_{x,j}.$$
+
+This is a standard convolution, the substraction of two normally distributed variables will also follow a normal distribution, with a mean equal to the difference of the means, and a standard deviation equal to $\sigma_\text{rel}=\sqrt{\sigma_i + \sigma_j}$. As both distributions have zero mean, we only care about the standard deviation,
+
+$$\sigma_i = \sqrt{2k_\text{B}T\left(\frac{1}{m_i} + \frac{1}{m_j}\right)}=\sqrt{\frac{2k_\text{B}T}{m}},$$
+
+where $m$ is the reduced mass. Since each component of the relative velocity follows a normal distribution with $\sigma_\text{rel}=2k_\text{B}T/m$, then the distribution of relative velocities is also a Maxwellian,
+
+$$f(v_\text{rel})=\left(\frac{m}{2\pi k_\text{B}T}\right)4\pi v^2\exp\left(-\frac{m v^2}{2 k_\text{B}T}\right)$$
