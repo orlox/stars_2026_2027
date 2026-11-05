@@ -29,6 +29,9 @@ makedocs(sitename="Stellar Structure and Evolution",
                 "Nuclear reactions (04/11/26)" => ["Notes" => "6_nucleo.md",
                                             "Exercises"=>"6_nucleo_problems.md",
                                             ],
+                "Assignment 1" => ["Julia installation" => "7_lab1_julia.md",
+                                    "Instructions"=>"7_lab1_instructions.md",
+                                            ],
                 ],
     repo = "github.com/orlox/stars_2026_2027.git")
 
