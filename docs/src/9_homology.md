@@ -19,10 +19,10 @@ $$\frac{\mathrm{d}L}{\mathrm{d}m}=\varepsilon_\mathrm{nuc},\quad\text{Energy equ
 $$\frac{\mathrm{d}T}{\mathrm{d}m}=-\frac{Gm}{4\pi r^4}\frac{T}{P}\nabla,\quad
 \nabla=\begin{cases}
 \nabla_\mathrm{rad},\;\nabla_\mathrm{rad}<\nabla_\mathrm{ad} \\
-\nabla_\mathrm{ad},\;\nabla_\mathrm{rad}>\nabla_\mathrm{ad} &
+\nabla_\mathrm{MLT},\;\nabla_\mathrm{rad}>\nabla_\mathrm{ad} &
 \end{cases}$$
 
-The last equation, which comes from the mode of energy transport, is often called the temperature equation. Beware that $\nabla=\nabla_\mathrm{ad}$ is a significant simplification, as for convection to transport any energy at all we need $\nabla>\nabla_\mathrm{ad}$, as we discussed when we derived a form of mixing-length theory. Since we are considering static models, we drop the partial derivative signs.
+The last equation, which comes from the mode of energy transport, is often called the temperature equation. In the case were convection is radiatively efficient, with moving eddies evolving close to adiabatic, one can approximate $\nabla_\text{MLT}\simeq \nabla_\text{ad}$.
 
 The equations above pose a significant problem, as even if we make simplistic assumptions about opacities and nuclear reaction rates they are highly non-linear and are not amicable to find analytical solutions. So instead, we will take a different approach. Consider we have a star of mass $M_1$ for which we have a solution to the structure equations, meaning we know $r_1(m)$, $P_1(m)$, $T_1(m)$ and $L_1(m)$. We will then consider a star of mass $M_2$, together with a corresponding solution $r_2(m)$, $P_2(m)$, $T_1(2)$ and $L_2(m)$. To relate both models we will write the equations of stellar structure in terms of a relative mass coordinate
 
