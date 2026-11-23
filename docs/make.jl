@@ -32,6 +32,12 @@ makedocs(sitename="Stellar Structure and Evolution",
                 "Assignment 1" => ["Julia installation" => "7_lab1_julia.md",
                                     "Instructions"=>"7_lab1_instructions.md",
                                             ],
+                "Boundary conditions and numerical methods (18/11/26)" => ["Notes" => "8_numerical.md",
+                                            "Exercises"=>"8_numerical_problems.md",
+                                            ],
+                "Homology relations and the main-sequence (25/11/26)" => ["Notes" => "9_homology.md",
+                                            "Exercises"=>"9_homology_problems.md",
+                                            ],
                 ],
     repo = "github.com/orlox/stars_2026_2027.git")
 
